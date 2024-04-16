@@ -12,4 +12,6 @@ This project is in it's early stages, and as it develops the plan is to wrap man
 
 PCBs are designed in Kicad to then load them into a 3D modelling software, to then be sliced by a 3D Printer slicer, to finally have extra g-code added by a custom script that had the necessary information to inject conductive filament into the plated though holes of a PCB.
 
-![Results](img/3 )
+![Results](img/3DPrintedCircuitBoard.png)
+
+Prints should be prepared in Prusa Slicer (tested with version 2.7.4), See the configuration bundle for Prusa Mini settings. 2 virtual extruders, and add only a single tool change
